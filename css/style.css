@@ -1,0 +1,119 @@
+
+#LandingPage {
+  margin-top: 50px;
+  font-family: 'Calibri', sans-serif;
+  font-weight: bold;  
+}
+
+.ipsychlogo{
+  margin-right: 100px;
+  width: 580px;
+  height: 580px;
+  
+}
+.col{
+  text-align: center;
+}
+
+.landingform{
+margin-top: 80px;
+border-style:ridge;
+border-color: black;
+border-radius: 28px;
+}
+.deptname{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  align-items: center;
+  padding-left: 28px;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 27px;
+}
+
+.userbtn {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  align-items: center;
+  width: 380px;
+  padding: 12px 30px;
+  background-color: #075607;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  border-radius: 6px;
+  border-style: hidden;
+  cursor: pointer;
+}
+.userbtn:hover {
+  opacity: 1;
+}
+.studentbtn{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+  width: 380px;
+  padding: 12px 30px;
+  background-color: #075607;
+  font-family: 'Times New Roman', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  border-radius: 6px;
+  border-style: hidden;
+}
+.studentbtn:hover {
+  opacity: 1;
+}
+
+/* Media Query for Mobile size */
+@media (max-width: 767px) {
+  .ipsychlogo {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #LandingPage{
+    margin-bottom: 70px;
+    align-items: center;
+  }
+}
+
+/* Media Query for Tablet small size */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .ipsychlogo {
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #LandingPage{
+    margin-bottom: 70px;
+    
+  }
+ 
+}
+
+/* Media Query for Tablet large size */
+@media (min-width: 1024px) {
+  .ipsychlogo {
+    width: 580px;
+    height: 580px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #LandingPage{
+    margin-bottom: 50px;
+  }
+ 
+}
+
+
